@@ -1,9 +1,7 @@
 size (800,800);
-background(0); 
+background(255); 
+stroke(0);
 
-stroke(255);
-
-stroke(255);
 // initialization & condition & incrementation 
 
 // vertical line 
@@ -23,7 +21,10 @@ stroke(255);
 //}
 
 //circle 
-//for ( int x
+//noFill();
+//for ( int x = 30 ; x < 1500; x+=100 ){
+//  circle ( 400, 400, x);
+//}
 
 
 // two curve lines 
@@ -36,3 +37,8 @@ stroke(255);
 //}
 
 // rectangle 
+//noFill();
+//rectMode (CENTER);
+//for (int x = width; x>0 ; x-=100){
+// rect ( width/2, height/2, x,x);
+ //}
