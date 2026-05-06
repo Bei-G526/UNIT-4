@@ -16,18 +16,79 @@
 //}
 //}
 
+//circle 
+//size(400,400);
+//background(255); 
+//stroke(0);
+//noFill();
+//for ( int x = -100 ; x < 1000; x+=80){
+//for ( int y=0; y<1000; y+=80){
+ // circle ( x, y, 150);
+//}
+//}
+
+
 // triangles 
-size (500,500);
-background(216,216,216);
-fill(0);
-for (int y=0; y<= height; y+=100) {
-for (int x=0; x<=width ; x+=100) {
-  triangle (x,y,x+50,y, x+50,y+50);
-}
-}
-for (int y=0; y=height; y+=100){
- for (int x=50; x<width; x+=100) [
- 
+//size (500,500);
+//background(216,216,216);
+//fill(0);
+//for (int y=0; y<= height; y+=100) {
+//for (int x=0; x<=width ; x+=100) {
+  //triangle (x,y,x+50,y, x+50,y+50);
+///}
+//}
+//for (int y=0; y<=height; y+=100){
+// for (int x=50; x<=width; x+=100) {
+ //triangle(x,y+50,x+50,y,x+50,y+50);
+//}
+//}
+//for (int y=50; y<=height; y+=100){
+//for (int x=0; x<= width; x+=100){
+  //triangle(x,y,x+50,y,x,y+50);
+//}
+//}
+//for (int y=50; y<=height; y+=100){
+//for (int x=50; x<= width; x+=100){
+  //triangle (x,y,x+50, y+50,x,y+50);
+//}
+//}
+
+// red and yellow design 
+//size (555,395);
+//background(173,7,7);
+//stroke(245,184,72);
+//horizontal
+//for (int h=20; h<1000; h=h+50){
+ // line(0,h,width,h);
+//}
+//vertical 
+//for (int w=30; w<1000; w=w+50){
+  //line (w,0,w,height);
+//}
+//square
+//noFill();
+//for(int y=-10; y<=height; y+=100){
+//for (int x=0; x<= width; x+=100){
+  //rect(x,y,60,60);
+//}
+////}
+//noFill(); 
+//for (int y=40; y<=height; y+=100){
+//for (int x=-50; x<=width; x+=100){
+  //rect (x,y,60,60);
+//}
+//}
+//Small square 
+//for (int y=15;y<=height;y+=100){
+//for(int x=25;x<=width;x+=100){
+ //   rect(x,y,10,10);
+//}
+//}
+//for (int y=65; y<=height; y+=100){
+//for (int x=75; x<=width; x+=100){
+ //   rect(x,y,10,10);
+//}
+//}
 
 
 //circles
@@ -45,22 +106,22 @@ for (int y=0; y=height; y+=100){
 //}
 
 // circles overlapping 
-//size (500,400);
-//background(255); 
-//stroke(0);
-//strokeWeight(5);
-//noFill();
-//for ( int x = 0 ; x < 1000; x+=167){
-//for ( int y=50; y<1000; y+=160){
-//for (int w = 15; w<190;w+=35){
-//  circle ( x, y, w);
-//}
-//}
-////}
-//for ( int x = 100 ; x < 1000; x+=167){
-//for ( int y=0; y<1000; y+=160){
-///for (int w = 15; w<190;w+=35){
-//  circle ( x, y, w);
-//}
-//}
-//}
+size (500,400);
+background(255); 
+stroke(0);
+strokeWeight(5);
+noFill();
+for ( int x = 0 ; x < 1000; x+=167){
+for ( int y=50; y<1000; y+=160){
+for (int w = 15; w<190;w+=35){
+ circle ( x, y, w);
+}
+}
+}
+for ( int x = 100 ; x < 1000; x+=167){
+for ( int y=0; y<1000; y+=160){
+for (int w = 15; w<190;w+=35){
+  circle ( x, y, w);
+}
+}
+}
